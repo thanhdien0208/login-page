@@ -225,13 +225,16 @@
         /* For small devices */
         
         @media only screen and (max-width: 480px) {
+            .wrapper {
+            width: 100vw;
+            }
             .login__content {
                 display: flex;
                 justify-content: center;
             }
             .login__form {
                 width: 350px;               
-                background-color: rgba(0, 0, 0, 0.4);
+                background-color: rgba(0, 0, 0, 0.6);
                 border: 2px solid rgba(0, 0, 0, 0.06);
                 backdrop-filter: blur(20px);
             }
