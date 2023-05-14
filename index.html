@@ -243,20 +243,39 @@
         .login__content {
           display: flex;
           justify-content: center;
-          margin-left: -9px;
+          margin-left: -5px;
         }
         .login__form {
           width: 350px;
           background-color: rgba(0, 0, 0, 0.8);
           border: 2px solid rgba(0, 0, 0, 0.06);
-          /* background-color: rgba(255, 255, 255, 0.6);
-          border: 2px solid rgba(255, 255, 255, 0.06); */
           backdrop-filter: blur(30px);
         }
         .login__forgot,
         .login__lostactive {
           font-size: 0.6rem;
           text-shadow: 2px 2px 2px #866f07;
+        }
+      }
+
+      @media only screen and (max-width: 376px) {
+        body {
+          width: 100vw;
+          background-image: url("img/bg-pvs.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        }
+        .login__content {
+          display: flex;
+          justify-content: center;
+          margin-left: -7px;
+        }
+        .login__form {
+          width: 320px;
+          background-color: rgba(0, 0, 0, 0.8);
+          border: 2px solid rgba(0, 0, 0, 0.06);
+          backdrop-filter: blur(30px);
         }
       }
     </style>
